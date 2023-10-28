@@ -1,4 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #010101;
+    align-items: center;
+    height: 20vh;
+
+}
+
 .logo {
-    background: red;
+    background: black;
     width: 100px;
+    
+}
+
+.menu {
+    display: none;
+}
+
+.hamburguesa {
+
 }
