@@ -1,5 +1,6 @@
 * {
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -7,12 +8,12 @@
     justify-content: space-between;
     background-color: #010101;
     align-items: center;
-    height: 20vh;
-
+    height: 4rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
 }
 
 .logo {
-    background: black;
     width: 100px;
     
 }
@@ -29,7 +30,45 @@ display: block;
 
 }
 
+/* Main */
 
+.main{
+    box-sizing: border-box;
+}
+
+.principal {
+background-color: #529cf1;
+color: white;
+padding: 15px;
+padding-top: 60px;
+padding-bottom: 20px;
+}
+
+.h2-principal {
+font-size: 40px;
+font-family: 'Roboto', sans-serif;
+line-height: 1.5;
+font-weight:800;
+}
+
+.p-principal {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.button-planes {
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    background-color: #26B758;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px;
+    
+}
 
 
 
